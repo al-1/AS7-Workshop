@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "blink_OC0A", "blink_OC0A\blink_OC0A.cproj", "{E450AF7F-1A79-4071-A4EE-7741F4C10904}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E450AF7F-1A79-4071-A4EE-7741F4C10904}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E450AF7F-1A79-4071-A4EE-7741F4C10904}.Debug|AVR.Build.0 = Debug|AVR
+		{E450AF7F-1A79-4071-A4EE-7741F4C10904}.Release|AVR.ActiveCfg = Release|AVR
+		{E450AF7F-1A79-4071-A4EE-7741F4C10904}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
