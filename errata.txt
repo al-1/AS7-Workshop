@@ -1,0 +1,8 @@
+Errata
+
+Auf Seite 2 steht ein nicht korrekterstring für das Argumen von AVEdude. Im Schript steht:
+Argument: -CV:\workshop\avrdude.conf -patmega328p -carduino -P\\.\COM14 -b57600 -Uflash:w:"$(ProjectDir)Debug\$(ItemFileName).hex":i
+Dieses Argument ist allerdings das richtige, verwendet man den Arduino Nono.
+Für den Arduino Uno ist folgendes Argument richtig:
+-CV:\workshop\avrdude.conf -patmega328p -carduino -P\\.\COM14 -b115200 -Uflash:w:"$(ProjectDir)Debug\$(ItemFileName).hex":i
+
