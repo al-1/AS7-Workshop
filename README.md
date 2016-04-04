@@ -9,8 +9,8 @@ Des weiteren findet sich der Kurzvortrag über den Workshop ebenfalls hier.
 ####Errata zur ersten Version
 Die gedruckte erste Version vom Script hat folgende Bekannte Fehler: diese Fehler sind in der korrigierten zweiten Version behoben. 
 
- * Auf Seite 2 steht ein nicht korrekter String für das Argument von AVEdude. Im Script steht: `Argument: -CV:\workshop\avrdude.conf -patmega328p -carduino -P\\.\COM14 -b57600 -Uflash:w:"$(ProjectDir)Debug\$(ItemFileName).hex":i`  
-  Dieses Argument ist allerdings das richtige, verwendet man den Arduino Uno.  Für den Arduino Uno ist folgendes Argument richtig:  
+ * Auf Seite 2 steht ein nicht korrekter String für das Argument von AVRdude. Im Script steht: `Argument: -CV:\workshop\avrdude.conf -patmega328p -carduino -P\\.\COM14 -b57600 -Uflash:w:"$(ProjectDir)Debug\$(ItemFileName).hex":i`  
+  Dieses Argument ist allerdings das richtige, verwendet man den Arduino Nano.  Für den Arduino Uno ist folgendes Argument richtig:  
   `-CV:\workshop\avrdude.conf -patmega328p -carduino -P\\.\COM14 -b115200 -Uflash:w:"$(ProjectDir)Debug\$(ItemFileName).hex":i`
  * Seite 6 Tabelle unten mit Bitweise Operationen das Beispiel für bitweise UND ist total falsch. So wies da steht wäre das Ergebnis gleich null.
  * Seite 7  Es Fehlt eine Semikolon bei:  
