@@ -16,3 +16,7 @@ Die gedruckte erste Version vom Script hat folgende Bekannte Fehler: diese Fehle
  * Seite 7  Es Fehlt eine Semikolon bei:  
    `DDRD|=(1<<3);`
  * Seite 14 Kapitel 2.7: Hier passt der Text nicht mit dem Code zusammen mit Text wird eine **fallende** Flanke beschrieben. Im code Beispiele wird aber auf eine steigende Flanke, also auf ein wieder loslassen des Taster, abgefragt. 
+
+ ####Ideen für weitere Kpitel
+ * Analoge Eingänge einlesen / ADC
+ * Frequenz variables Rechtecksignal mit OCR und compare match Interrupt erzeugen
