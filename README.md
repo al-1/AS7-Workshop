@@ -17,6 +17,6 @@ Die gedruckte erste Version vom Script hat folgende Bekannte Fehler: diese Fehle
    `DDRD|=(1<<3);`
  * Seite 14 Kapitel 2.7: Hier passt der Text nicht mit dem Code zusammen mit Text wird eine **fallende** Flanke beschrieben. Im code Beispiele wird aber auf eine steigende Flanke, also auf ein wieder loslassen des Taster, abgefragt. 
 
-####Ideen für weitere Kpitel
+####Ideen für weitere Kapitel
  * Analoge Eingänge einlesen / ADC
- * Frequenz variables Rechtecksignal mit OCR und compare match Interrupt erzeugen
+ * Frequenz-variables Rechtecksignal mit OCR und compare match Interrupt erzeugen
