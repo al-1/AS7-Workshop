@@ -17,7 +17,7 @@ Die gedruckte erste Version vom Script hat folgende Bekannte Fehler: diese Fehle
    `DDRD|=(1<<3);`
  * Seite 14 Kapitel 2.7: Hier passt der Text nicht mit dem Code zusammen mit Text wird eine **fallende** Flanke beschrieben. Im code Beispiele wird aber auf eine steigende Flanke, also auf ein wieder loslassen des Taster, abgefragt. 
 
-####Weitere litteratur / Read on
+####Weitere Literatur / Read on
  * Ein Script von einem anderne autor, welches sich mit einem ähnliches AVR-Mikrocontroller beschäftigst, kann [hier](https://github.com/SyncChannel/ATtiny104XNANO_AddOn/blob/master/Documentation/LearnEmbeddedElec_ATtiny104XNANO.pdf) gefunden werden. Es spricht eine recht ähnliche Zeilgruppe wie meins an. Das verlinkte Dokument ist auf Englisch.
 
 ####Ideen für weitere Kapitel
